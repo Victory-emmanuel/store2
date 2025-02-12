@@ -43,12 +43,15 @@ const AboutSection = () => {
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
-                <Typography variant="h3" color="amber" className=" mb-2">
+                <Typography
+                  color="amber"
+                  className=" mb-2 text-3xl ss:text-4xl md:text-5xl font-semibold"
+                >
                   About Us
                 </Typography>
                 <Typography
                   variant="h2"
-                  className=" text-3xl ss:text-4xl md:text-5xl mb-4 text-secondary dark:text-white"
+                  className=" text-2xl ss:text-3xl md:text-4xl mb-4 text-secondary dark:text-white"
                 >
                   Crafting Sweet Moments
                 </Typography>

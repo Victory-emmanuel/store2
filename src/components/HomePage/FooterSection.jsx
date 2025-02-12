@@ -38,7 +38,7 @@ const FooterSection = () => {
     <div className="relative bg-white dark:bg-secondary">
       <WaveDivider position="top" />
       <footer className="bg-primary dark:bg-black py-16">
-        <div className="container mx-auto">
+        <div className=" mx-auto">
           <motion.div
             variants={container}
             initial="hidden"

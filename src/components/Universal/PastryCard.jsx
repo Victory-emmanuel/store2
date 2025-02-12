@@ -52,7 +52,7 @@ const PastryCard = ({ image, title, description }) => {
               className="absolute top-2 left-2 p-2"
               onClick={flipCard}
             >
-              <ArrowLeftIcon className="h-6 w-6" />
+              <ArrowLeftIcon className="h-6 w-6 text-secondary dark:text-white" />
             </IconButton>
             <div className="mt-8">
               <Typography
